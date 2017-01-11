@@ -165,7 +165,7 @@ function msoe () {
 	  	}}});
 	};
 	this.printabc = () => {
-    	$(".boo").show();
+    $(".boo").show();
 		printJS("sheet","html");
 		$(".boo").hide();
 		$("#boo"+(p+1)).show();
